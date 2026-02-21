@@ -1,8 +1,11 @@
 # 📦 E-Commerce Sales Insight: Análise Exploratória e Performance (Janeiro 2026)
 
+
 ![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Análise_de_Dados-150458?style=for-the-badge&logo=pandas)
+
+![Image](https://github.com/user-attachments/assets/b9293560-ac39-4cd2-b028-f121c3857f69)
 
 > **Resumo Executivo:** Este projeto realiza uma análise exploratória de dados (EDA) aprofundada em um ecossistema de E-commerce. O objetivo principal foi realizar um "Health Check" operacional, avaliando o desempenho de vendas, a eficiência logística e o impacto de estratégias promocionais.
 
@@ -57,11 +60,12 @@ Para este projeto, seguimos um fluxo de trabalho de Ciência de Dados:
 * `app.py`: Interface desenvolvida para visualização dinâmica em Streamlit.
 
 ---
-<a id="contact"></a>
-## 📬 Contact
+## 📬 Contato
 
-LinkedIn: [www.linkedin.com/in/lucaspimentabarretto](https://www.linkedin.com/in/lucaspimentabarretto)  
-GitHub: [https://github.com/LucasPBar](https://github.com/LucasPBar)  
-Gmail: [lucaspimenta1805@gmail.com](mailto:lucaspimenta1805@gmail.com)
-
+| | | |
+| :--- | :--- | :--- |
+| **👤 Nome:** | Lucas Pimenta Barretto | |
+| **<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="24" style="vertical-align:middle; margin-right:8px;"> LinkedIn:** | [linkedin.com/in/lucaspimentabarretto](https://www.linkedin.com/in/lucaspimentabarretto) | |
+| **📧 Email:** | lucaspimenta1805@gmail.com | |
+| **💼 Portfólio**  | [Data Science Portfolio](https://www.datascienceportfol.io/lucaspimenta1805) |
 ---
