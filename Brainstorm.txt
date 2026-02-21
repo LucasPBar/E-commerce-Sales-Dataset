@@ -1,0 +1,37 @@
+Sugestão de escopo para o projeto
+
+1. Health Check de Vendas: Concentração geográfica, métodos de pagamento e impacto dos descontos no faturamento.
+- Quais são as regiões que possuem a maior concentração dos clientes? (Tabela com o group by separando entre estado/cidade) - ok
+- Qual é o top 10 categorias de produtos que mais vendem? - ok
+- Quais categorias/subcategorias que mais sofrem desconto? (Tabela group by) - ok
+	- Qual é o impacto que os descontos estão fazendo no volume de vendas? Será que realmente os descontos realmente estão convertendo vendas? - ok
+	- Como o valor do frete influencia no volume de vendas? (Gráfico de dispersão) - (Gráfico de barras produtos com desconto x sem desconto) - ok
+- Quais são os métodos de pagamentos mais utilizados pelos clientes? - ok
+	- Há relação entre o método de pagamento e o tipo de produto que os clientes compram? - ok
+- Este banco de dados é referente apenas ao mês de janeiro do ano de 2026
+	- Em quais dias da semana há maior volume de vendas? - ok
+	- Os clientes tendem a comprar mais produtos durante o início do mês - ok
+	- Hipótese para testar: As vendas são maiores na primeira quinzena (queima de estoque) ou na segunda?
+	- Dica: Verifique se o ticket médio (total_sales) cai conforme o desconto aumenta ao longo do mês.
+- Quantos clientes compraram mais de uma vez? Dentre esses clientes, qual é a média de frequência? - ok
+- Quais estados trazem a maior Receita Líquida de Frete (total_sales - shipping_cost)? - ok
+
+2. Eficiência Logística (O ponto forte): Onde a entrega é mais rápida? Onde o frete é abusivo?
+- Quais produtos que possuem o maior custo de envio? - ok
+- Qual é o tempo médio geral para o envio por categoria e subcategoria? - ok
+	- Quantos envios foram feitos fora do tempo médio para cada região?
+- Tempo de Despacho: ship_date - order_date.
+
+- Tempo de Entrega Real: delivery_date - order_date.
+
+- Calcular o impacto do valor do frete sobre o faturamento total - ok
+Por que? No e-commerce, se o frete custa mais que 15-20% do produto, a operação pode estar perdendo dinheiro. Quais regiões (States/Cities) têm o frete mais caro proporcionalmente? Isso é um insight de logística puro.
+
+-Como todos foram entregues, o seu foco não é "se chegou", mas "quão rápido chegou".
+
+Calcule a variância. Existem cidades onde o desvio padrão do tempo de entrega é muito alto? (Isso indica instabilidade logística naquela região específica).
+
+3. Análise de Mix de Produtos: O Treemap de marcas e categorias para entender o inventário de janeiro.
+- Você tem três níveis: brand -> category -> sub_category. (criar uma visualização do tipo Treemap para ver qual marca domina qual categoria em termos de faturamento.)
+
+
