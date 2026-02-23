@@ -1,4 +1,4 @@
-<h1 align="center">📦 E-Commerce Sales Insight</h1>
+<h1 align="center">📦 E-Commerce Sales Dataset</h1>
 <h3 align="center">Análise Exploratória e Performance Operacional | Janeiro 2026</h3>
 
 <p align="center">
