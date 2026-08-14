@@ -166,9 +166,6 @@ Analista de Dados | Foco em Performance & Estratégia
 <a href="https://www.linkedin.com/in/lucaspimentabarretto">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/> LinkedIn
 </a>
-<br>
-📧 lucaspimenta1805@gmail.com
-<br>
 💼 Portfólio: https://www.datascienceportfol.io/lucaspimenta1805
 </p>
 
